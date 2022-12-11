@@ -1,3 +1,5 @@
-- PHP8・Laravel8・mysql・Nginx・docker・phpdebug3
-- 参考ブログ記事
-　https://maasaablog.com/development/laravel/docker/
+calender app 
+tech: laravel react nginx docker mysql
+
+機能の実装を書く
+マークダウン記法でかくと見栄えをよくできる。
