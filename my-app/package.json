@@ -18,6 +18,10 @@
         "vite": "^3.0.0"
     },
     "dependencies": {
-        "react-router-dom": "^6.4.5"
+        "@blueprintjs/core": "^4.13.0",
+        "moment": "^2.29.4",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^6.4.5",
+        "styled-components": "^5.3.6"
     }
 }

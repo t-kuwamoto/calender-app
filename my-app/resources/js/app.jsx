@@ -4,21 +4,21 @@
  * building robust, powerful web applications using React + Laravel.
  */
 
-import './bootstrap';
+import "./bootstrap";
 
 /**
  * Next, we will create a fresh React component instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './components/Example';
-import Example from './components/Example';
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-ReactDOM.createRoot(document.getElementById('app')).render(
+import Calendar from "./Components/Calendar";
+
+ReactDOM.createRoot(document.getElementById("app")).render(
     <React.StrictMode>
-      <Example/>
+        <Calendar />
     </React.StrictMode>
-  );
-  //if loading jsx elements, extension should be .jsx     app.js->app.jsx
+);
+//if loading jsx elements, extension should be .jsx     app.js->app.jsx
